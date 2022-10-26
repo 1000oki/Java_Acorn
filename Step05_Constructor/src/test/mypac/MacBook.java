@@ -19,6 +19,6 @@ public class MacBook {
 			System.out.println("부품이 부족해서 맥북이 동작을 할 수 없습니다.");
 			return;
 		}
-		System.out.println("신나게 게입을 해요!");
+		System.out.println("신나게 게임을 해요!");
 	}
 }
