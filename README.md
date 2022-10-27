@@ -1,4 +1,4 @@
-# 📗 Java_Acorn
+# 📖 Java_Acorn
 AcornAcademy에서 배운 **Java** 수업 코드
 
 1. DataType
@@ -11,4 +11,4 @@ AcornAcademy에서 배운 **Java** 수업 코드
 8. Extends
 <br>
 
-[📖 정리한 내용](https://velog.io/@1000oki/series/Java)
+[📕 정리한 내용](https://velog.io/@1000oki/series/Java)
