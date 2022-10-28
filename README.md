@@ -1,13 +1,13 @@
 # 📖 Java_Acorn
 AcornAcademy에서 배운 **Java** 수업 코드
 
-1️⃣. DataType
-2️⃣. Operator
-3️⃣. Class
-4️⃣. Method
-5️⃣. Constructor
-6️⃣. WrapperClass
-7️⃣. Array
+1️⃣. DataType<br>
+2️⃣. Operator<br>
+3️⃣. Class<br>
+4️⃣. Method<br>
+5️⃣. Constructor<br>
+6️⃣. WrapperClass<br>
+7️⃣. Array<br>
 8️⃣. Extends
 <br>
 
