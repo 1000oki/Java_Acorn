@@ -12,6 +12,9 @@ public class MainClass03 {
 		Phone p2 = p1;
 		
 		// p1 안에 있는 참조값을 p3라는 Object type 지역 변수에 대입하기
-		 Object p3 = p1;
+		Object p3 = p1;
+		 
+		// 자식 객체의 참조값은 부모 type 변수나 필드에 자연스럽게 담긴다.
+		
 	}
 }
