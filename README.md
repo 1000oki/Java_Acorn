@@ -8,8 +8,8 @@ AcornAcademy에서 배운 **Java** 수업 코드
 5️⃣ Constructor<br>
 6️⃣ WrapperClass<br>
 7️⃣ Array<br>
-8️⃣ Extends
-9️⃣ AbstractClass
+8️⃣ Extends<br>
+9️⃣ AbstractClass<br>
 🔟 interface
 <br>
 
