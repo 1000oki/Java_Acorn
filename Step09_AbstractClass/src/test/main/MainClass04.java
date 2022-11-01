@@ -8,7 +8,7 @@ public class MainClass04 {
 	static class YourWeapon extends Weapon{
 		@Override
 		public void attack() {
-			System.err.println("공중 공격으로 해요!");
+			System.out.println("공중 공격으로 해요!");
 		}
 	}
 	
