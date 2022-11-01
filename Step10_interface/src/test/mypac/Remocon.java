@@ -10,7 +10,7 @@ package test.mypac;
  *  - 클래스 상속은 단일 상속이지만, 인터페이스는 다중 구현이 가능하다.
  */
 public interface Remocon {
-	// 필드는 static final 핃으만 가질 수 있다.(static final은 생략 가능)
+	// 필드는 static final 핃드만 가질 수 있다.(static final은 생략 가능)
 	public static final String COMPANY="LG";
 	
 	// 메소드는 추상 메소드만 정의할 수 있다.

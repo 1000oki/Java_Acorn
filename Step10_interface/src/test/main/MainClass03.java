@@ -3,7 +3,7 @@ package test.main;
 import test.mypac.Remocon;
 
 public class MainClass03 {
-	// anoymous inner class를 이용해서 interface type의 참조값을 얻어내기
+	// anonymous inner class를 이용해서 interface type의 참조값을 얻어내기
 	// static 메소드 안에서 사용해야되기 때문에 static 필드로 만들어 준다.
 	
 	static Remocon r1 = new Remocon() {
