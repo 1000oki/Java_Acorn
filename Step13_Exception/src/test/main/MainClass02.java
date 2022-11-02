@@ -24,7 +24,7 @@ public class MainClass02 {
 			System.out.println("어떤 수를 0으로 나눌 수는 없어요");
 		}catch (Exception e) { // 모든 예외상황
 			System.out.println("예외가 발생했습니다.");
-		}finally { // 위의 예외 발생과 상관없이 반드시 실행이 보장되는 블럭
+		}finally { // 위의 예외 발생과 상관없이 반드시 배실행이 보장되는 블럭
 			System.out.println("무언가 중요한 마무리 작업을 해");
 		}
 		System.out.println("main 메소드가 정상 종료 됩니다.");
