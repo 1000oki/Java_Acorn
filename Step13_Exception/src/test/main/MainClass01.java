@@ -17,7 +17,7 @@ public class MainClass01 {
 		}catch (NumberFormatException nfe) {
 			/*
 			 * 실행 스택에서 일어난 일을 콘솔창에 출력하기
-			 * (자세한 에외 정보를 예외객체가 콘솔창에 출력하게 하기)
+			 * (자세한 예외 정보를 예외객체가 콘솔창에 출력하게 하기)
 			 */
 			nfe.printStackTrace();
 		}

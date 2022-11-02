@@ -15,6 +15,8 @@ public class MainClass10 {
 		set1.add(50);
 		set1.add(10);
 		set1.add(40);
+		set1.add(20);
+		set1.add(30);
 
 		// HashSet 객체에 담긴 아이템을 순서있게 관리하도록 생성자의 인자에 넣어서 객체 생성하기
 		List<Integer> list=new ArrayList<>(set1);
