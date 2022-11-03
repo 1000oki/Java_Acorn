@@ -15,7 +15,7 @@ public class MyFrame extends JFrame{
 		setLayout(new BorderLayout());
 		
 		JButton btn1 = new JButton("버튼1");
-		add(btn1, BorderLayout.NORTH);// 프레임에 btn1 추가하기
+		add(btn1, "North");// 프레임에 btn1 추가하기
 		
 		JButton btn2 = new JButton("버튼2");
 		add(btn2, BorderLayout.EAST);

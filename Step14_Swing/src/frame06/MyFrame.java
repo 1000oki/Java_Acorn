@@ -26,7 +26,7 @@ public class MyFrame extends JFrame implements ActionListener{
 		add(delBtn);
 		
 		sendBtn.addActionListener(this);
-		delBtn.addActionListener(this);
+		
 	}
 	
 	public static void main(String[] args) {
@@ -45,11 +45,7 @@ public class MyFrame extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		// 눌러진 버튼의 참조값 얻어내기
 		Object which = e.getSource();
-		if(which == sendBtn) {
-			JOptionPane.showMessageDialog(this, "전송합니다.");
-		}else if(which == delBtn) {
-			JOptionPane.showMessageDialog(this, "삭제합니다.");
-
-		}
+		JOptionPane.showMessageDialog(this, "전송합니다.");
+		
 	}
 }

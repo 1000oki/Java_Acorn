@@ -18,6 +18,7 @@ public class MyFrame extends JFrame{
 		JFrame b = this;
 		Component c = this;
 		Object d = this;
+
 		
 		setBounds(100, 100, 500, 500);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -43,6 +44,7 @@ public class MyFrame extends JFrame{
 		 */
 		JButton delBtn = new JButton("삭제");
 		add(delBtn);
+		
 		delBtn.addActionListener(new ActionListener() {
 			
 			@Override
