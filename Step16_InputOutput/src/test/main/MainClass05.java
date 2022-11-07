@@ -19,7 +19,6 @@ public class MainClass05 {
 			osw.write("아니야");
 			osw.flush();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

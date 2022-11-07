@@ -9,8 +9,8 @@ import test.util.DBConnect;
 public class MainClass09 {
 	public static void main(String[] args) {
 		//추가할 회원의 정보
-		String name="주뎅이";
-		String addr="봉천동";
+		String name="누구게2";
+		String addr="봉천동2";
 		
 		//추가할 회원의 정보를 MemberDto 객체에 담아서 
 		MemberDto dto=new MemberDto();
@@ -51,8 +51,6 @@ public class MainClass09 {
 		}
 	}
 }
-
-
 
 
 

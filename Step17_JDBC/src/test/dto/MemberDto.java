@@ -1,5 +1,7 @@
 package test.dto;
-
+/*
+ * Data Transaction Object
+ */
 public class MemberDto {
 	//회원 한명의 정보를 저장할 필드(보통 테이블의 칼럼명과 일치 시킨다)
 	private int num;
@@ -40,9 +42,7 @@ public class MemberDto {
 		this.addr = addr;
 	}
 
-	
-	
-	
+		
 }
 
 

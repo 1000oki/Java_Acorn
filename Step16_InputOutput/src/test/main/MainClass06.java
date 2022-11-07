@@ -24,7 +24,6 @@ public class MainClass06 {
 			bw.flush();
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
