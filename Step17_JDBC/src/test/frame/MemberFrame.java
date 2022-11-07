@@ -165,16 +165,14 @@ public class MemberFrame extends JFrame implements ActionListener, PropertyChang
 			int rowIndex = table.getSelectedRow();
 			if(rowIndex != -1) {
 				int num = (int) model.getValueAt(rowIndex, 0);
-				
-
-			 String name = (String)model.getValueAt(rowIndex, 1);
-	         String addr = (String)model.getValueAt(rowIndex, 2);
-	         MemberDto dto = new MemberDto();
-	         dto.setName(name);
-	         dto.setAddr(addr);
-	         dto.setNum(num);
-	         new MemberDao().update(dto);
-	         return;
+				 String name = (String)model.getValueAt(rowIndex, 1);
+		         String addr = (String)model.getValueAt(rowIndex, 2);
+		         MemberDto dto = new MemberDto();
+		         dto.setName(name);
+		         dto.setAddr(addr);
+		         dto.setNum(num);
+		         new MemberDao().update(dto);
+		         return;
 	         }
 		}
 	}
