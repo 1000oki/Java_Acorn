@@ -54,6 +54,7 @@ public class MyFrame extends JFrame{
 			}
 		};
 		
+		
 		inputMsg.addKeyListener(listener);
 		
 		setVisible(true);
