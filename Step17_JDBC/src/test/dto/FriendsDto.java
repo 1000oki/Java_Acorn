@@ -3,15 +3,15 @@ package test.dto;
 import java.sql.Date;
 
 public class FriendsDto {
+	// 친구 한명의 정보를 저장할 필드
 	private int num;
 	private String name;
 	private String phone;
 	private Date birth;
-
-	public FriendsDto() {
-	}
 	
-
+	// 디폴트 생성자
+	public FriendsDto() {}
+	
 	public FriendsDto(int num, String name, String phone, Date birth) {
 		super();
 		this.num = num;
